@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("Fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardglass {
+    width: 50%;
+    height: 80%;
+    margin: 10% auto;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+.card-text {
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+@media (max-width: 768px) {
+    .cardglass {
+        width: 80%;
+        height: auto;
+    }
+}
